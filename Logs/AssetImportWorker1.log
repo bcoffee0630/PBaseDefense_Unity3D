@@ -2,8 +2,8 @@ Unity Editor version:    2022.3.13f1 (5f90a5ebde0f)
 Branch:                  2022.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 14.2 (Build 23C64)
-Darwin version:          23.2.0
+macOS version:           Version 14.3.1 (Build 23D60)
+Darwin version:          23.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54675
+50932
 Successfully changed project path to: /Users/bcoffee/Documents/GitHub/PBaseDefense_Unity3D
 /Users/bcoffee/Documents/GitHub/PBaseDefense_Unity3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/bcoffee/Documents/GitHub/PBaseDefen
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8100499456] Host "[IP] 192.168.0.228 [Port] 0 [Flags] 2 [Guid] 2560701315 [EditorId] 2560701315 [Version] 1048832 [Id] OSXEditor(0,DingBangdeMac-mini.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8055397440] Host "[IP] 192.168.0.228 [Port] 0 [Flags] 2 [Guid] 3090983051 [EditorId] 3090983051 [Version] 1048832 [Id] OSXEditor(0,DingBangdeMac-mini.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8100499456] Host "[IP] 192.168.0.228 [Port] 0 [Flags] 2 [Guid] 2560701315 [EditorId] 2560701315 [Version] 1048832 [Id] OSXEditor(0,DingBangdeMac-mini.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8055397440] Host "[IP] 192.168.0.228 [Port] 0 [Flags] 2 [Guid] 3090983051 [EditorId] 3090983051 [Version] 1048832 [Id] OSXEditor(0,DingBangdeMac-mini.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,25 +76,25 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56779
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56923
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.001291 seconds.
-- Loaded All Assemblies, in  0.196 seconds
+Registered in 0.001560 seconds.
+- Loaded All Assemblies, in  0.199 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 173 ms
+Android Extension - Scanning For ADB Devices 66 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.388 seconds
-Domain Reload Profiling: 583ms
-	BeginReloadAssembly (45ms)
+- Finished resetting the current domain, in  0.294 seconds
+Domain Reload Profiling: 493ms
+	BeginReloadAssembly (43ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -102,26 +102,26 @@ Domain Reload Profiling: 583ms
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (94ms)
-		LoadAssemblies (45ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (97ms)
+		LoadAssemblies (43ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (93ms)
-			TypeCache.Refresh (92ms)
-				TypeCache.ScanAssembly (81ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (86ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (388ms)
+	FinalizeReload (295ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (354ms)
+		SetupLoadedEditorAssemblies (260ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (281ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (181ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (47ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
+			ProcessInitializeOnLoadAttributes (51ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -129,1246 +129,256 @@ Domain Reload Profiling: 583ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.123 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.183 seconds
-Domain Reload Profiling: 307ms
-	BeginReloadAssembly (67ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (11ms)
-	LoadAllAssembliesAndSetupDomain (16ms)
-		LoadAssemblies (33ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (7ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (183ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (101ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (11ms)
-			ProcessInitializeOnLoadAttributes (58ms)
-			ProcessInitializeOnLoadMethodAttributes (10ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 181 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (42.7 KB). Loaded Objects now: 655.
-Memory consumption went from 60.8 MB to 60.7 MB.
-Total: 1.743625 ms (FindLiveObjects: 0.026541 ms CreateObjectMapping: 0.005042 ms MarkObjects: 1.676625 ms  DeleteObjects: 0.035000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 43486.973067 seconds.
-  path: Assets/P-BaseDefenseAssets/Scenes/StartScene.unity
-  artifactKey: Guid(a6013b54ca05f604883b1a01e0f926d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/P-BaseDefenseAssets/Scenes/StartScene.unity using Guid(a6013b54ca05f604883b1a01e0f926d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2044b1ef857b86c0b90c0ccf34f96200') in 0.000939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 29.384962 seconds.
-  path: Assets/DesignPatternExample/DesignPatternExample.unity
-  artifactKey: Guid(a9cf5a558b7dd9c4da44371481e8bff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/DesignPatternExample.unity using Guid(a9cf5a558b7dd9c4da44371481e8bff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f1f0fc19a553405e08a133741eac071c') in 0.038413 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Art_Kai/Soldier/Captain.prefab
-  artifactKey: Guid(5c290b1e233e20c4fb50502958d05fd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Art_Kai/Soldier/Captain.prefab using Guid(5c290b1e233e20c4fb50502958d05fd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ef71149b724b8d74df17d5b86dd9a56') in 0.017581 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 72
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/PBaseDefenseGame.cs
-  artifactKey: Guid(2f3732cbd30d15543b71124413529ee7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/PBaseDefenseGame.cs using Guid(2f3732cbd30d15543b71124413529ee7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5959c5243247321cafd3b37cabf7b6a4') in 0.002028 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/DesignPatternExample/Singleton/ClassWithCounter.cs
-  artifactKey: Guid(a22cf81ca9746ec45b5cc9610dd710cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Singleton/ClassWithCounter.cs using Guid(a22cf81ca9746ec45b5cc9610dd710cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '12640fdd8c7bf54506d6e0fccd5f68c8') in 0.001039 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/DesignPatternExample/Visitor/VisitorTest.cs
-  artifactKey: Guid(609f2fc073e1e944d9199be7e5b20ad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Visitor/VisitorTest.cs using Guid(609f2fc073e1e944d9199be7e5b20ad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71e2894286ce5531564c899002ec0825') in 0.001501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/DesignPatternExample/Visitor/ShapeVisitorTest.cs
-  artifactKey: Guid(2d6e9b812b50f6b41949b80439d4c986) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Visitor/ShapeVisitorTest.cs using Guid(2d6e9b812b50f6b41949b80439d4c986) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '379894b58d83dc5694d9aaeb9c18f17a') in 0.000890 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Art_Kai/Enemy/Material/Elf.mat
-  artifactKey: Guid(d5cb6c847fea30d48938a6186b6f4c76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Art_Kai/Enemy/Material/Elf.mat using Guid(d5cb6c847fea30d48938a6186b6f4c76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '77596473f1d70d18a0953760c188349f') in 0.069904 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/DesignPatternExample/Singleton/Singleton.cs
-  artifactKey: Guid(957e981240f105044aee50d88280231c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Singleton/Singleton.cs using Guid(957e981240f105044aee50d88280231c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0544a53de6fab6101213895cff3dc0ce') in 0.001049 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/DesignPatternExample/Bridge/Bridge_Window.cs
-  artifactKey: Guid(06f0b9f84af25374397c0a0bda874801) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Bridge/Bridge_Window.cs using Guid(06f0b9f84af25374397c0a0bda874801) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d2f68095edce9e72c5543d5b8e230ad') in 0.001246 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Art_Kai/Weapon/Rocket.prefab
-  artifactKey: Guid(79e2cf1625b97b8478e3afb55fca315f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Art_Kai/Weapon/Rocket.prefab using Guid(79e2cf1625b97b8478e3afb55fca315f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9302b657b12e755287efa3b136c70084') in 0.003615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Art_Kai/Scene/Texture/CampCompleteMap.png
-  artifactKey: Guid(1a5ef6892c83e4e4795c7f5b456b3407) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Art_Kai/Scene/Texture/CampCompleteMap.png using Guid(1a5ef6892c83e4e4795c7f5b456b3407) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4ef90573e05d49f23fa46f43f5aee044') in 0.025437 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/DesignPatternExample/Chain of Responsibility/ChainofResponsibility.cs
-  artifactKey: Guid(56c0ea50129cc7a47ba4c388e87ca57c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Chain of Responsibility/ChainofResponsibility.cs using Guid(56c0ea50129cc7a47ba4c388e87ca57c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1548e20809af70e28c10a0f71c1d6cd9') in 0.001479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/DesignPatternExample/Observer/ObserverTest.cs
-  artifactKey: Guid(7981464bafe57124f956e04639ecfb88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Observer/ObserverTest.cs using Guid(7981464bafe57124f956e04639ecfb88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a627eaa0c04b2399dd9353ca205fbf45') in 0.001177 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Art_Kai/Scene/Material/BattleScene.mat
-  artifactKey: Guid(90c2dac20a82627499fa2a87701df628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Art_Kai/Scene/Material/BattleScene.mat using Guid(90c2dac20a82627499fa2a87701df628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29d453bf9fd5a1cbdec4a6b5f721d0cd') in 0.003011 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/ExampleCode/3DBuildToolWithoutPattern.cs
-  artifactKey: Guid(78d3df24fd9c18242928fa53631c7d68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExampleCode/3DBuildToolWithoutPattern.cs using Guid(78d3df24fd9c18242928fa53631c7d68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f4d4b3d4ba1ed375ac5432c19fc050cc') in 0.001615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/P-BaseDefenseAssets/Scenes/BattleScene.unity
-  artifactKey: Guid(499182b2722f9c94d8937f078e9811ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Scenes/BattleScene.unity using Guid(499182b2722f9c94d8937f078e9811ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd463357e5af1cd567295d057bf41e8b4') in 0.000781 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Art_Kai/Soldier/Texture/CaptainCompleteMap.png
-  artifactKey: Guid(f3e4a99f4ba5d2145824dba52d09d2a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Art_Kai/Soldier/Texture/CaptainCompleteMap.png using Guid(f3e4a99f4ba5d2145824dba52d09d2a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cc299784dbb0081325ce11a9f8c3d830') in 0.007814 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/DesignPatternExample/Bridge/Bridge.cs
-  artifactKey: Guid(a5802e87a464f43429924532a48ab13f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Bridge/Bridge.cs using Guid(a5802e87a464f43429924532a48ab13f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9818549a1de321f9cc9b0ed7a9f45db8') in 0.000920 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/DesignPatternExample/Proxy/ProxyTest.cs
-  artifactKey: Guid(3ddd5f5ff7fefd24b94d75705a33ca30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Proxy/ProxyTest.cs using Guid(3ddd5f5ff7fefd24b94d75705a33ca30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e3a2de582ba934419a5ae858e77e4e3') in 0.000878 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/DesignPatternExample/Chain of Responsibility/ChainofResponsibilityTest.cs
-  artifactKey: Guid(219256bcc1dbc3b428dfaf56e5ce4d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Chain of Responsibility/ChainofResponsibilityTest.cs using Guid(219256bcc1dbc3b428dfaf56e5ce4d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0aeba528394496ff54255213d3559f0') in 0.001393 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/DesignPatternExample/Flyweight/Flyweight.cs
-  artifactKey: Guid(b85bf7e8d52a39d4d9f21e9fe5579a00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Flyweight/Flyweight.cs using Guid(b85bf7e8d52a39d4d9f21e9fe5579a00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ff8ff5f0ef58af571dea539ad73f0a6') in 0.000815 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Art_Kai/Enemy/Texture/OgreCompleteMap.png
-  artifactKey: Guid(49d73f16f77cb7f47869ef303fd0ae87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Art_Kai/Enemy/Texture/OgreCompleteMap.png using Guid(49d73f16f77cb7f47869ef303fd0ae87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7edb9dc8c99861a90876036cda5aeea9') in 0.007793 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/DesignPatternExample/Factory Method/FactoryMethod.cs
-  artifactKey: Guid(e993890c94f83a84099f794b8cb4c0d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Factory Method/FactoryMethod.cs using Guid(e993890c94f83a84099f794b8cb4c0d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '92d9e6b07e6c5540f6a6154cbb6882f7') in 0.000980 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Art_Kai/Enemy/Fbx/Enemy.FBX
-  artifactKey: Guid(08bc8c18ed070a84683aea9a8c95b61b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Art_Kai/Enemy/Fbx/Enemy.FBX using Guid(08bc8c18ed070a84683aea9a8c95b61b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '31713b646bfb772f2ace193bd0bf44a3') in 0.029916 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 82
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/ExampleCode/ResourceAssetFactoryWithCache.cs
-  artifactKey: Guid(1b79afed6e8c67948a2e6f2010e2357f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExampleCode/ResourceAssetFactoryWithCache.cs using Guid(1b79afed6e8c67948a2e6f2010e2357f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a284456fb5448384e4e0bc3c050fec5') in 0.001734 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/DesignPatternExample/Prototype/PrototypeTest.cs
-  artifactKey: Guid(d3cf24773102f914aa05e6e92e2a5a3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Prototype/PrototypeTest.cs using Guid(d3cf24773102f914aa05e6e92e2a5a3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02e567ab8256860c15f7908ec9df27b8') in 0.000940 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/DesignPatternExample/Strategy/StrategyTest.cs
-  artifactKey: Guid(3645f2f3736843644bb274151aeadf9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Strategy/StrategyTest.cs using Guid(3645f2f3736843644bb274151aeadf9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd97557581fded71fa8075e8eaccb80e8') in 0.001021 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/P-BaseDefenseAssets/Scenes/MainMenuScene.unity
-  artifactKey: Guid(4db06ece4adc33b40b71f2abe68dc128) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Scenes/MainMenuScene.unity using Guid(4db06ece4adc33b40b71f2abe68dc128) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61a8742304dc83bb2d79bf4b375d9f19') in 0.001194 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/DesignPatternExample/Builder/Builder.cs
-  artifactKey: Guid(28db1b5e7bd79714d824045e51df538d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Builder/Builder.cs using Guid(28db1b5e7bd79714d824045e51df538d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eeb69e98fea854a45203c36932565fec') in 0.000821 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/DesignPatternExample/Factory Method/FactoryMethodTest.cs
-  artifactKey: Guid(2d3fb35c01b19094f847c54d2859706f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Factory Method/FactoryMethodTest.cs using Guid(2d3fb35c01b19094f847c54d2859706f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a6545ad3e5b985258798649e3400c28') in 0.000939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Art_Kai/Enemy/Material/Troll.mat
-  artifactKey: Guid(87df272bf327e8d4487cc3d5a713fba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Art_Kai/Enemy/Material/Troll.mat using Guid(87df272bf327e8d4487cc3d5a713fba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1058969a95d439a3f62a87ac44b00f0d') in 0.002471 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/DesignPatternExample/Prototype/Prototype.cs
-  artifactKey: Guid(a8df7d7899bd0eb4fbd538010b1cde96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Prototype/Prototype.cs using Guid(a8df7d7899bd0eb4fbd538010b1cde96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0682eda1593bb7062a366efdbb0a5bf4') in 0.000994 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/DesignPatternExample/Abstract Factory/AbstractFactoryTest.cs
-  artifactKey: Guid(6d6360e964fc101409ad33df7c24ec1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Abstract Factory/AbstractFactoryTest.cs using Guid(6d6360e964fc101409ad33df7c24ec1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '48c62d4da1487d74251a9afc22610c3e') in 0.000918 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/DesignPatternExample/Bridge/BridgeTest.cs
-  artifactKey: Guid(85886a423fdd2694b8bfa90754438dcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Bridge/BridgeTest.cs using Guid(85886a423fdd2694b8bfa90754438dcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9808d4ea86a25c5c72bdc232a52f539a') in 0.000833 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/DesignPatternExample/Strategy/Strategy.cs
-  artifactKey: Guid(7452f3a9ea5550740970fe8ab7b58695) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Strategy/Strategy.cs using Guid(7452f3a9ea5550740970fe8ab7b58695) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '20d7ca1d8ceada3f542f0ccdaabe0f98') in 0.001276 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/DesignPatternExample/Proxy/Proxy.cs
-  artifactKey: Guid(1343eb4802ef0484dbdf96e56e7b4d24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Proxy/Proxy.cs using Guid(1343eb4802ef0484dbdf96e56e7b4d24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0cc7c7c81b199b4a325ab4ae4d8c1631') in 0.000771 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/DesignPatternExample/Composite/CompositeTest.cs
-  artifactKey: Guid(cfafbb92fd30d59489448ea77c179785) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Composite/CompositeTest.cs using Guid(cfafbb92fd30d59489448ea77c179785) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd2a69fe0a9e89fb68c4c7b39d18d280') in 0.000972 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/ExampleCode/CharacterAndAttr.cs
-  artifactKey: Guid(9d5127f06adb94649887b81b22f67514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExampleCode/CharacterAndAttr.cs using Guid(9d5127f06adb94649887b81b22f67514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f7530071c2e84cb77b3e90c73c9111ab') in 0.000935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Art_Kai/Scene/Fbx/BattleScene.FBX
-  artifactKey: Guid(dd9156a1c16e4324c8598f4610776ba2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Art_Kai/Scene/Fbx/BattleScene.FBX using Guid(dd9156a1c16e4324c8598f4610776ba2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b898f9f3bdd0f107910e87b65526a1d6') in 0.007939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/ExampleCode/CharacterAndWeapon.cs
-  artifactKey: Guid(8faff10e274f1124682b9d6ab9ddce4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExampleCode/CharacterAndWeapon.cs using Guid(8faff10e274f1124682b9d6ab9ddce4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c4316e5fde14fc427b243d7f999f3ca1') in 0.000988 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/DesignPatternExample/Decorator/Decorator.cs
-  artifactKey: Guid(24f8c609d6dc4d144b0858270a52942e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Decorator/Decorator.cs using Guid(24f8c609d6dc4d144b0858270a52942e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '51ffb455539beec485d18041b21c253b') in 0.000944 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/ExampleCode/AchievementWithoutPattern.cs
-  artifactKey: Guid(5fd1717730f0fb044803ce4e1b854f25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExampleCode/AchievementWithoutPattern.cs using Guid(5fd1717730f0fb044803ce4e1b854f25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd001874348aa6eecfe6bb8e7e14086ef') in 0.001441 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/PBaseDefenseGameUnitTest.cs
-  artifactKey: Guid(40e54666c00c0944192ba3622764b494) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/PBaseDefenseGameUnitTest.cs using Guid(40e54666c00c0944192ba3622764b494) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e0e060d7469ecf5f8bd236df8097ab0') in 0.001051 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/DesignPatternExample/Visitor/ShapeVisitor.cs
-  artifactKey: Guid(bdd09cc9ea9a12d4b8d8f8a0be3f3d29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Visitor/ShapeVisitor.cs using Guid(bdd09cc9ea9a12d4b8d8f8a0be3f3d29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db1648215778f15a6d7171f35ca0537a') in 0.000839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/P-BaseDefenseAssets/Scenes/CharacterTestScene.unity
-  artifactKey: Guid(f34d186a64bab9740b287bfe1a7927bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Scenes/CharacterTestScene.unity using Guid(f34d186a64bab9740b287bfe1a7927bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ebb65d709bcee10e9075a130d006f100') in 0.001133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/DesignPatternExample/Decorator/DecoratorTest.cs
-  artifactKey: Guid(1344868461df6674d9da97ef0bddc99b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Decorator/DecoratorTest.cs using Guid(1344868461df6674d9da97ef0bddc99b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c3a5f38d7a0f2dcf37b25332c00c91aa') in 0.000858 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/DesignPatternExample/Composite/Composite.cs
-  artifactKey: Guid(73822ab760af92445be2bbd3716c3789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/DesignPatternExample/Composite/Composite.cs using Guid(73822ab760af92445be2bbd3716c3789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dacf67b8480e568fe280c9d8f3f228f3') in 0.000865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/ExampleCode/AchievementSaveWithoutPattern.cs
-  artifactKey: Guid(2ccebf837e688504490014f5edcc2dd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExampleCode/AchievementSaveWithoutPattern.cs using Guid(2ccebf837e688504490014f5edcc2dd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '55bc2b0a34ea0ad3f17ce6622aeb89a7') in 0.000992 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/ExampleCode/NewRoleWithoutFactory.cs
-  artifactKey: Guid(b216c70f9a2e5094fa80ac3acd18bdb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExampleCode/NewRoleWithoutFactory.cs using Guid(b216c70f9a2e5094fa80ac3acd18bdb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c3781444dcc13757cd8744e8fa54f8ea') in 0.001823 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Art_Kai/Enemy/Texture/TrollCompleteMap.png
-  artifactKey: Guid(70e66fd75a3e4c5498a619d5d445ac54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Art_Kai/Enemy/Texture/TrollCompleteMap.png using Guid(70e66fd75a3e4c5498a619d5d445ac54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '65af666c3813d614048375e052c34233') in 0.006822 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.233326 seconds.
-  path: Assets/Art_Kai/Weapon/Fbx/weapon.FBX
-  artifactKey: Guid(0c57876eed71e3545bb5435a10ee4261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Art_Kai/Weapon/Fbx/weapon.FBX using Guid(0c57876eed71e3545bb5435a10ee4261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c454078b6f70c4b91289a2ec2236b478') in 0.017888 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Materials/LineRenderMaterial.mat
-  artifactKey: Guid(007cd3dce0e6539409edcc484011c877) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Materials/LineRenderMaterial.mat using Guid(007cd3dce0e6539409edcc484011c877) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2704f8bab99130cfee56fd1d7133a125') in 0.004740 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/UI/GamePauseUI.cs
-  artifactKey: Guid(285006c87b261994fbacd171f1beb45a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/UI/GamePauseUI.cs using Guid(285006c87b261994fbacd171f1beb45a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '15770eff26be9c97c2ed1b50987c8e2f') in 0.001309 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Character/CharacterAI/EnemyAI.cs
-  artifactKey: Guid(8d064496725283d41b9ded94065f284c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Character/CharacterAI/EnemyAI.cs using Guid(8d064496725283d41b9ded94065f284c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '641c170acfdca7f5289fa1befec79322') in 0.001417 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/SceneState/SceneStateController.cs
-  artifactKey: Guid(cecd7bff8b0948143b125438ecd4fa90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/SceneState/SceneStateController.cs using Guid(cecd7bff8b0948143b125438ecd4fa90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '308c5de1435814ab29439f0fc42b4c77') in 0.002135 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Character/CharacterAI/SoldierAI.cs
-  artifactKey: Guid(7d86d094827e6064ab3e63ba30417dd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Character/CharacterAI/SoldierAI.cs using Guid(7d86d094827e6064ab3e63ba30417dd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b47d96f2b596ddd7899703b100eb65f5') in 0.001186 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/EnemyCaptive.cs
-  artifactKey: Guid(80eb4d7f698364742838f2b1afad37b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/EnemyCaptive.cs using Guid(80eb4d7f698364742838f2b1afad37b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '43246f886ee57bc915e5a3949447291b') in 0.001228 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/SceneState/MainMenuState.cs
-  artifactKey: Guid(48f305d9ea218db4b8f2d283d20177f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/SceneState/MainMenuState.cs using Guid(48f305d9ea218db4b8f2d283d20177f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06f3fc8c00192ba92a21b8368321a8b5') in 0.001441 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Sprites/SergeantIcon.png
-  artifactKey: Guid(591e91ce9060f0242b416a2c08109562) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Sprites/SergeantIcon.png using Guid(591e91ce9060f0242b416a2c08109562) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5d571db3311afb11864280af3e836e4') in 0.011293 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Art_Kai/Weapon/Texture/RifleCompleteMap.png
-  artifactKey: Guid(641ca4478bf04c5448bf6edd3f43bafb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Art_Kai/Weapon/Texture/RifleCompleteMap.png using Guid(641ca4478bf04c5448bf6edd3f43bafb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f6817d67d3fa357cd16d98a2f473b45') in 0.008068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Sprites/RookieCamp.png
-  artifactKey: Guid(d27249d1e6f77c44685bfd315fa577ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Sprites/RookieCamp.png using Guid(d27249d1e6f77c44685bfd315fa577ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea52a93370323499e376901b87557dd1') in 0.008922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Sprites/SergeantCamp.png
-  artifactKey: Guid(61c41672879833d4a8204984e5b09cf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Sprites/SergeantCamp.png using Guid(61c41672879833d4a8204984e5b09cf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aba7c8c39fb0a33406a91b0bea775ace') in 0.008959 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Weapon/IWeapon.cs
-  artifactKey: Guid(3f4b827d27ab2be4583d10f77931f501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Weapon/IWeapon.cs using Guid(3f4b827d27ab2be4583d10f77931f501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '65229b569d960615e9aab79b55025f19') in 0.001154 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/SceneState/StartState.cs
-  artifactKey: Guid(79e551e631a17f54081e75d1d417d0b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/SceneState/StartState.cs using Guid(79e551e631a17f54081e75d1d417d0b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9d1a6a6078e211e541bed6d2fb9f6918') in 0.001002 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Audios/CaptainDeath.mp3
-  artifactKey: Guid(c13b06853f8afd64eaf81ca3ef186489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Audios/CaptainDeath.mp3 using Guid(c13b06853f8afd64eaf81ca3ef186489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c49330953dd34e817d4e47734068e9f6') in 0.018412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Effects/TrollHitEffect.prefab
-  artifactKey: Guid(23ad683ee765b3c4f86a66e5dc2d0f6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Effects/TrollHitEffect.prefab using Guid(23ad683ee765b3c4f86a66e5dc2d0f6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80025724f65d3917d6b5a8ffae6f1ab6') in 0.004545 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Character/Script/CharacterMovement.cs
-  artifactKey: Guid(2c331ab893056364fba2e98bd32496e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Script/CharacterMovement.cs using Guid(2c331ab893056364fba2e98bd32496e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6410cb5737406f9a703b3b497607f375') in 0.001085 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/UI/GameStateInfoUI.cs
-  artifactKey: Guid(94a007ac552fcd04dae3d965dbf9b85b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/UI/GameStateInfoUI.cs using Guid(94a007ac552fcd04dae3d965dbf9b85b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94e05d3e33ced913631dde169da96f86') in 0.000990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Camp/TrainCommand/TrainCaptiveCommand.cs
-  artifactKey: Guid(c5199e396b02ced4785cebbaf3b0e237) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Camp/TrainCommand/TrainCaptiveCommand.cs using Guid(c5199e396b02ced4785cebbaf3b0e237) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8caf10021d7415de0c94d84ffc396a0') in 0.001577 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Art_Kai/Weapon/Material/Rifle.mat
-  artifactKey: Guid(4677dac734f18d44e90bc4180bf7207d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Art_Kai/Weapon/Material/Rifle.mat using Guid(4677dac734f18d44e90bc4180bf7207d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28ba01543e9c2689439b0374846af5b2') in 0.001667 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Tools/UnityTool.cs
-  artifactKey: Guid(0a669ebdf4fb6fe459a25afdc754fa8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Tools/UnityTool.cs using Guid(0a669ebdf4fb6fe459a25afdc754fa8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '73a037c18bf121c8399387948340565f') in 0.001022 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Factory/PBDFactory.cs
-  artifactKey: Guid(33e744fa1cb736945b5a80b4fb4ca62a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Factory/PBDFactory.cs using Guid(33e744fa1cb736945b5a80b4fb4ca62a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a6f74400adef12c344d72f9f60cb89c') in 0.001411 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Character/CharacterBuilder/ICharacterBuilder.cs
-  artifactKey: Guid(6d33a5e174b1099439338a59b89a704f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Character/CharacterBuilder/ICharacterBuilder.cs using Guid(6d33a5e174b1099439338a59b89a704f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c8bcb38ea39a9691e054bcc5880437b') in 0.000967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Character/CharacterVisitor/UnitCountVisitor.cs
-  artifactKey: Guid(3be0ea672fa4a1547bb7b5092394565a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Character/CharacterVisitor/UnitCountVisitor.cs using Guid(3be0ea672fa4a1547bb7b5092394565a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c5e7bb170be70103ec760d68d984e135') in 0.000920 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/P-BaseDefenseAssets/Scenes/BattleScene/NavMesh.asset
-  artifactKey: Guid(94b3373244bc6714c8cb4ca8f45370f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Scenes/BattleScene/NavMesh.asset using Guid(94b3373244bc6714c8cb4ca8f45370f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '737e12e1d5ac6a9d42d159e11516856e') in 0.000989 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Camp/ICamp.cs
-  artifactKey: Guid(cbbaea4ec94fbf448b8863306a6daae2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Camp/ICamp.cs using Guid(cbbaea4ec94fbf448b8863306a6daae2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '73008f8469dc42cebbd4893a5bff1725') in 0.001381 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Weapon/WeaponGun.cs
-  artifactKey: Guid(a36a5c8d9674b4d4dba633fd99bea5e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Weapon/WeaponGun.cs using Guid(a36a5c8d9674b4d4dba633fd99bea5e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd2d81d4c39cab2590d1c52ff0aaa286d') in 0.000905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000428 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Sprites/CaptainIcon.png
-  artifactKey: Guid(265ed139498110d4e8e78fe2d074f192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Sprites/CaptainIcon.png using Guid(265ed139498110d4e8e78fe2d074f192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39f724ea1ac983a6ae3aafb496f90637') in 0.008056 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Camp/Script/CampOnClick.cs
-  artifactKey: Guid(232a2206e4caae8428b22786262f4ff2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Camp/Script/CampOnClick.cs using Guid(232a2206e4caae8428b22786262f4ff2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af6722b8bda3594c598d8a5d1c66e1eb') in 0.001086 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/UI/CampInfoUI.cs
-  artifactKey: Guid(3785379a8ebd22c4eaa91fbb04e2c085) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/UI/CampInfoUI.cs using Guid(3785379a8ebd22c4eaa91fbb04e2c085) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a4396fb5ce0866e687ccbfe759e960f9') in 0.001396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Character/CharacterVisitor/ICharacterVisitor.cs
-  artifactKey: Guid(1c040b78b2f9955408a7367a23ddfd94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Character/CharacterVisitor/ICharacterVisitor.cs using Guid(1c040b78b2f9955408a7367a23ddfd94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb06b70273a8bb7ffa0e82b2bd2905af') in 0.000911 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Character/Soldier/SoldierCaptain.cs
-  artifactKey: Guid(23544906409995747a2c8097f9bdc2f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Soldier/SoldierCaptain.cs using Guid(23544906409995747a2c8097f9bdc2f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b57d4b093f335e07ce7f0f07af049e35') in 0.000820 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Effects/CaptainDeadEffect.prefab
-  artifactKey: Guid(8a56f84ad5130304f841f4dec2ab96bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Effects/CaptainDeadEffect.prefab using Guid(8a56f84ad5130304f841f4dec2ab96bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6759661725947c034db486a27046a3d8') in 0.002070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Art_Kai/Weapon/Material/Gun.mat
-  artifactKey: Guid(8084fbee8fdcfd6488a0f84366b9fd1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Art_Kai/Weapon/Material/Gun.mat using Guid(8084fbee8fdcfd6488a0f84366b9fd1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b10ab39e73fbf6b0436b88992a3c8cfa') in 0.001597 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Camp/TrainCommand/ITrainCommand.cs
-  artifactKey: Guid(49602289887fdea42a868e2689557e60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Camp/TrainCommand/ITrainCommand.cs using Guid(49602289887fdea42a868e2689557e60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '838f851cf29d2f3afd48a19a772bde86') in 0.000932 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/EnemyTroll.cs
-  artifactKey: Guid(16c55b055556a134cb45fc3214ef2153) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/EnemyTroll.cs using Guid(16c55b055556a134cb45fc3214ef2153) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '55567582b8968e82d3688be613fa0d8e') in 0.001415 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/BaseClass/IGameSystem.cs
-  artifactKey: Guid(90c5a0e9097841147879fe0274fc32f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/BaseClass/IGameSystem.cs using Guid(90c5a0e9097841147879fe0274fc32f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39cea4599101113f0055a5577a106cbd') in 0.000936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Effects/SergeantDeadEffect.prefab
-  artifactKey: Guid(ac94a37676fa7aa4ca61540972036bb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Effects/SergeantDeadEffect.prefab using Guid(ac94a37676fa7aa4ca61540972036bb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f1970bd14388f06ad4fe522162c6f636') in 0.001652 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Tools/UITool.cs
-  artifactKey: Guid(1667a1feee045274880988622cb5666e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Tools/UITool.cs using Guid(1667a1feee045274880988622cb5666e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '03b34e5ac715b07063f2a7bd40bf4436') in 0.000954 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/UI/SoldierInfoUI.cs
-  artifactKey: Guid(3dcfc1bcb2d74d5459487ee5ac1eed36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/UI/SoldierInfoUI.cs using Guid(3dcfc1bcb2d74d5459487ee5ac1eed36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'efb2eed0228bef7cd68b900865ba90d6') in 0.001434 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/P-BaseDefenseAssets/Scenes/SceneObjects/Star Red.mat
-  artifactKey: Guid(341e36040881ccd4cb41231dbab1d707) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Scenes/SceneObjects/Star Red.mat using Guid(341e36040881ccd4cb41231dbab1d707) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28123a9768760177245a2e2f87159467') in 0.006419 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Sprites/ElfIcon.png
-  artifactKey: Guid(15ce616df698f1e4bbef4e8d9065fe35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Sprites/ElfIcon.png using Guid(15ce616df698f1e4bbef4e8d9065fe35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c83a1522fef0d5702799acb73bd98862') in 0.008649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Sprites/CaptiveCamp.png
-  artifactKey: Guid(1add4098ede65d14b9e9eb82af18c72d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Sprites/CaptiveCamp.png using Guid(1add4098ede65d14b9e9eb82af18c72d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de256020a5e70d740be24dc799a9c2ee') in 0.008257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Camp/TrainCost/TrainCost.cs
-  artifactKey: Guid(6bdc28761ed0b394dba3b50687be96e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Camp/TrainCost/TrainCost.cs using Guid(6bdc28761ed0b394dba3b50687be96e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2fecd7c59bb8539a49aae9ce81611cfe') in 0.001567 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Art_Kai/Weapon/Material/Rocket.mat
-  artifactKey: Guid(5341aa8d7752e4d4b8ff2a29019a0033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Art_Kai/Weapon/Material/Rocket.mat using Guid(5341aa8d7752e4d4b8ff2a29019a0033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5e3c0f24c18b78fc9b13ad979ca73220') in 0.001661 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Character/CharacterAI/ICharacterAI.cs
-  artifactKey: Guid(f3b07d2e1d4e571468f76cde3b4276a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Character/CharacterAI/ICharacterAI.cs using Guid(f3b07d2e1d4e571468f76cde3b4276a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d08f318d29041820def631f715214a6') in 0.001020 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/UI/Heart.png
-  artifactKey: Guid(7812012593df89b44ae90491267909e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/UI/Heart.png using Guid(7812012593df89b44ae90491267909e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd953d78cb750fd1010e8bcb58632b87b') in 0.008806 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Sprites/RookieIcon.png
-  artifactKey: Guid(1fdb9c52a7d788a4396239e3826312a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Sprites/RookieIcon.png using Guid(1fdb9c52a7d788a4396239e3826312a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '53ab9f28db4c73d11ceae40b478ee514') in 0.008083 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Camp/CaptiveCamp.cs
-  artifactKey: Guid(a790a83b05f20894e8ce48985f8e3052) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Camp/CaptiveCamp.cs using Guid(a790a83b05f20894e8ce48985f8e3052) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec70d099f6e1444ab6471a93fe20dfbe') in 0.001155 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Effects/ElfHitEffect.prefab
-  artifactKey: Guid(139c6c6bc748e7f499f63716dc5857ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Effects/ElfHitEffect.prefab using Guid(139c6c6bc748e7f499f63716dc5857ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a3aaa42a20d00f8a81da274af93b356') in 0.001945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Camps/SoldierCamp.prefab
-  artifactKey: Guid(efe30b54343a2f54aa0df9ba2cf93965) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Camps/SoldierCamp.prefab using Guid(efe30b54343a2f54aa0df9ba2cf93965) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '12834509841ee51bbb9f75c9c0912d25') in 0.002406 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/EnemyElf.cs
-  artifactKey: Guid(deb217a8b0370244a8e54cd95b73d966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/EnemyElf.cs using Guid(deb217a8b0370244a8e54cd95b73d966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71f98a621ab21486be6c6f02ee1f39a3') in 0.001436 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/IEnemy.cs
-  artifactKey: Guid(ea8e62f49107a6d439f425a94b86eb3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/IEnemy.cs using Guid(ea8e62f49107a6d439f425a94b86eb3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4659efd1b590e39942c634c39e14dddd') in 0.000852 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Weapons/WeaponRifle.prefab
-  artifactKey: Guid(27b06cc1d7d3abf498590d7096dfca32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Weapons/WeaponRifle.prefab using Guid(27b06cc1d7d3abf498590d7096dfca32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '93e66c5bcd6001390fbdd5d1175cfdaf') in 0.002191 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Effects/RookieDeadEffect.prefab
-  artifactKey: Guid(66350ae987492a242a79c25752819ac1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Effects/RookieDeadEffect.prefab using Guid(66350ae987492a242a79c25752819ac1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce7929c6698465a7a33a669d403c2f7a') in 0.001737 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Audios/RifleShot.wav
-  artifactKey: Guid(8af9b84117aab4a48ba134e04951246a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Audios/RifleShot.wav using Guid(8af9b84117aab4a48ba134e04951246a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '23f5083541d2e75fac3a54f7cf51e34b') in 0.028690 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Camps/CaptiveCamp.prefab
-  artifactKey: Guid(3840cace2eac9284fac229bb391df4e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Camps/CaptiveCamp.prefab using Guid(3840cace2eac9284fac229bb391df4e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7fdd034925f0cbb4da1104dcf5d249be') in 0.001821 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Camp/TrainCost/ITrainCost.cs
-  artifactKey: Guid(5a4a7cc4f4570ab42932560a40800b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Camp/TrainCost/ITrainCost.cs using Guid(5a4a7cc4f4570ab42932560a40800b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '072cd667847c717f35e96a3be1b9a8b2') in 0.000895 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Camp/CampSystem.cs
-  artifactKey: Guid(836348abdcf293245bc157cfa44391e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Camp/CampSystem.cs using Guid(836348abdcf293245bc157cfa44391e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f80ce0775958e99e3b7bc346b6853bf6') in 0.001260 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/EnemyOgre.cs
-  artifactKey: Guid(7613504cfacdddb498586de4262e8416) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Enemy/EnemyOgre.cs using Guid(7613504cfacdddb498586de4262e8416) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f098e2ea6021c125f68310c2cd6085f') in 0.000938 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Materials/Heart.png
-  artifactKey: Guid(ac394e6e5080d754e8b437e5936fca3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Materials/Heart.png using Guid(ac394e6e5080d754e8b437e5936fca3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '426b4d34e0d25a3d4f434a9dcd2047a3') in 0.007454 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.261716 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Character/Soldier/SoldierRookie.cs
-  artifactKey: Guid(a5da26c0b823e84459084fd0583d4427) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Soldier/SoldierRookie.cs using Guid(a5da26c0b823e84459084fd0583d4427) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d8ef884bb37e0c929ec9a68895e0a95') in 0.003506 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/GameAttr/CharacterAttr/SoldierAttr.cs
-  artifactKey: Guid(767b1fd50e94a76408fe837e586a6410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/GameAttr/CharacterAttr/SoldierAttr.cs using Guid(767b1fd50e94a76408fe837e586a6410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '19297354bf0c19e6f4fe6c9252a2b641') in 0.001983 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/GameEvent/GameEventObserver/NewStageObserver/NewStageObserverSoldierAddMedal.cs
-  artifactKey: Guid(bb4dc5ea0f526e24c85acbe9fd8c96f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/GameEvent/GameEventObserver/NewStageObserver/NewStageObserverSoldierAddMedal.cs using Guid(bb4dc5ea0f526e24c85acbe9fd8c96f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5631da98e1b5ecb8e567f499ed7430e6') in 0.002121 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Factory/AssetFactory/ResourceAssetFactory.cs
-  artifactKey: Guid(cd8ac48c1db092c419038a09ca308515) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Factory/AssetFactory/ResourceAssetFactory.cs using Guid(cd8ac48c1db092c419038a09ca308515) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a7ba0545a5eaa71c09d71d2c1317698') in 0.002533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Stage/StageHandler/NormalStageHandler.cs
-  artifactKey: Guid(d8944b15784acc94ba4b325b799a535e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Stage/StageHandler/NormalStageHandler.cs using Guid(d8944b15784acc94ba4b325b799a535e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7854886ee2476d9ffc36e7206dcd6fd9') in 0.001875 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Stage/StageScore/IStageScore.cs
-  artifactKey: Guid(50f46d43b9b1ddc40adc3703b3d71932) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Stage/StageScore/IStageScore.cs using Guid(50f46d43b9b1ddc40adc3703b3d71932) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e43ee1339b7420ef1cf4402edad143a9') in 0.001422 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Factory/AttrFactory/AttrFactory.cs
-  artifactKey: Guid(75d6c428fcbb7ed4697a2b82dc1dffa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Factory/AttrFactory/AttrFactory.cs using Guid(75d6c428fcbb7ed4697a2b82dc1dffa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8675c90a8e6f2e5c8637d9f718ba68af') in 0.002240 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/GameEvent/GameEventObserver/NewStageObserver/NewStageObserverAchievement.cs
-  artifactKey: Guid(097f5e6f71c9bdc4ba5ca497619d092e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/GameEvent/GameEventObserver/NewStageObserver/NewStageObserverAchievement.cs using Guid(097f5e6f71c9bdc4ba5ca497619d092e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a1724221ac67ad477d88336478885f85') in 0.001744 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Factory/AssetFactory/LocalAssetFactory.cs
-  artifactKey: Guid(6c04a9899586f0742ba6c7d30bee73ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Factory/AssetFactory/LocalAssetFactory.cs using Guid(6c04a9899586f0742ba6c7d30bee73ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dccbe49270f55cbc6dd3dcba29d1cfbe') in 0.001538 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Characters/Enemy/Enemy3.prefab
-  artifactKey: Guid(4d147bf04debcd04dab276d9e1bfb6ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Characters/Enemy/Enemy3.prefab using Guid(4d147bf04debcd04dab276d9e1bfb6ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bf1f34bcaee095b8f3672924e3349e1d') in 0.008819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 79
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Characters/Enemy/Enemy1.prefab
-  artifactKey: Guid(18883c7af988e544ab0b62069e9f9771) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Characters/Enemy/Enemy1.prefab using Guid(18883c7af988e544ab0b62069e9f9771) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94cce8bfd325e3f5e33c874f3ea93583') in 0.005176 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 79
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/GameAttr/CharacterAttr/BaseAttr/BaseAttrDecorator.cs
-  artifactKey: Guid(12faa296d6d50f14fa57c1f91dbac3de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/GameAttr/CharacterAttr/BaseAttr/BaseAttrDecorator.cs using Guid(12faa296d6d50f14fa57c1f91dbac3de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '86b443f4f5b783e8a396bd8f21be39d2') in 0.001194 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Factory/AssetFactory/RemoteAssetFactory.cs
-  artifactKey: Guid(0e2b526748142d7418134186d49cc0d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Factory/AssetFactory/RemoteAssetFactory.cs using Guid(0e2b526748142d7418134186d49cc0d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ab5045755ceb86873e4970287ae775a') in 0.001142 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Stage/StageScore/StageScoreEnemyKilledCount.cs
-  artifactKey: Guid(726f585297785fd418021e346478cce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Stage/StageScore/StageScoreEnemyKilledCount.cs using Guid(726f585297785fd418021e346478cce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '53ee94720d45f8a6fb21906eb675dad8') in 0.001812 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/GameEvent/GameEventObserver/IGameEventObserver.cs
-  artifactKey: Guid(8a58df2d90735714d8a4e0944faa8f21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/GameEvent/GameEventObserver/IGameEventObserver.cs using Guid(8a58df2d90735714d8a4e0944faa8f21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '55fe3a657002803b0af0f14bc565a01f') in 0.001230 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/GameEvent/GameEventObserver/EnemyKilledObserver/EnemyKilledObserverStageScore.cs
-  artifactKey: Guid(c20a0ec6537927745b14bb7f1e97cdb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/GameEvent/GameEventObserver/EnemyKilledObserver/EnemyKilledObserverStageScore.cs using Guid(c20a0ec6537927745b14bb7f1e97cdb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b63fed42d41df31564adce8e82e2743') in 0.001215 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Factory/AttrFactory/IAttrFactory.cs
-  artifactKey: Guid(4444e472c8851bd41aee9f5299499af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Factory/AttrFactory/IAttrFactory.cs using Guid(4444e472c8851bd41aee9f5299499af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e79a26bcdb8d0e7c9f65238d9518bb77') in 0.002640 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/GameEvent/GameEventSubject/EnemyKilledSubject.cs
-  artifactKey: Guid(cc67a74e15e26b84caf25466d3bb3c68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/GameEvent/GameEventSubject/EnemyKilledSubject.cs using Guid(cc67a74e15e26b84caf25466d3bb3c68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '836dcfd4b937fbde14de711fddcdfb2b') in 0.001114 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/GameAttr/CharacterAttr/AttrStrategy/SoldierAttrStrategy.cs
-  artifactKey: Guid(5205f08756f82da49820a95ee0088f19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/GameAttr/CharacterAttr/AttrStrategy/SoldierAttrStrategy.cs using Guid(5205f08756f82da49820a95ee0088f19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'edfed281c7da1d5223b78a6325ede888') in 0.001048 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Characters/Soldier/Soldier3.prefab
-  artifactKey: Guid(8114d49a8b9ba214d9469a7d09bdff68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Characters/Soldier/Soldier3.prefab using Guid(8114d49a8b9ba214d9469a7d09bdff68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7173ce3ffd2c002c86a431287b0c652b') in 0.005344 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 87
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Character/Soldier/SoldierSergeant.cs
-  artifactKey: Guid(901f1a64c1ee30444a3e1b4f01560efb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Character/Soldier/SoldierSergeant.cs using Guid(901f1a64c1ee30444a3e1b4f01560efb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ada800e15dd8abac7f00e588cca10430') in 0.001026 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Stage/StageHandler/IStageHandler.cs
-  artifactKey: Guid(2d5946809e5521f4ba10c93b95eea245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Stage/StageHandler/IStageHandler.cs using Guid(2d5946809e5521f4ba10c93b95eea245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '881d387dac5a4162259d58d41585a967') in 0.001057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/GameEvent/GameEventSubject/NewStageSubject.cs
-  artifactKey: Guid(d5126212e4e46694e83d9a52771bc223) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/GameEvent/GameEventSubject/NewStageSubject.cs using Guid(d5126212e4e46694e83d9a52771bc223) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bcc340f432a0527857883a6e0fd2770e') in 0.001505 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Factory/CharacterFactory/ICharacterFactory.cs
-  artifactKey: Guid(5290d001fbff7484a93350f9a08ca5fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Factory/CharacterFactory/ICharacterFactory.cs using Guid(5290d001fbff7484a93350f9a08ca5fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd3b49b12a06356365ce49e8bde147946') in 0.000966 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Factory/CharacterFactory/CharacterFactory.cs
-  artifactKey: Guid(9e02c154c59d7414989f156ea2a8daf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Factory/CharacterFactory/CharacterFactory.cs using Guid(9e02c154c59d7414989f156ea2a8daf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '396936245a1679f99cf40303a71ee84b') in 0.000979 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/P-BaseDefenseAssets/Resources/Characters/Soldier/Soldier2.prefab
-  artifactKey: Guid(193288e787a92e94b99b4955d95ccb65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/Resources/Characters/Soldier/Soldier2.prefab using Guid(193288e787a92e94b99b4955d95ccb65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed6c7860ce5f57e5ff39c4ad161b3f0a') in 0.005875 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 87
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/Stage/StageData/NormalStageData.cs
-  artifactKey: Guid(d07eaa1bb5a106d4e928d4b379c16a72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/Stage/StageData/NormalStageData.cs using Guid(d07eaa1bb5a106d4e928d4b379c16a72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61204e52f530c5a6275849a42523fc5f') in 0.001069 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/GameEvent/GameEventSubject/SoldierKilledSubject.cs
-  artifactKey: Guid(dea0b1c00cec7d94c898a264360bfcb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/GameEvent/GameEventSubject/SoldierKilledSubject.cs using Guid(dea0b1c00cec7d94c898a264360bfcb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eaa567cbe6b8092baa4f7022832d5d38') in 0.002505 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/P-BaseDefenseAssets/GameCode/GameEvent/GameEventObserver/EnemyKilledObserver/EnemyKilledObserverUI.cs
-  artifactKey: Guid(64a552d4531cba54a9a4950d062b6818) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/P-BaseDefenseAssets/GameCode/GameEvent/GameEventObserver/EnemyKilledObserver/EnemyKilledObserverUI.cs using Guid(64a552d4531cba54a9a4950d062b6818) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb5ed569ea8978d682ca39ac8bda591a') in 0.001541 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x17f41f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.172 seconds
+- Loaded All Assemblies, in  0.198 seconds
 Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.209 seconds
-Domain Reload Profiling: 380ms
-	BeginReloadAssembly (67ms)
+- Finished resetting the current domain, in  0.213 seconds
+Domain Reload Profiling: 412ms
+	BeginReloadAssembly (73ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (21ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (56ms)
-		LoadAssemblies (72ms)
+	LoadAllAssembliesAndSetupDomain (75ms)
+		LoadAssemblies (86ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (7ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (11ms)
 			ScanForSourceGeneratedMonoScriptInfo (2ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (209ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (213ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (124ms)
+		SetupLoadedEditorAssemblies (126ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
+			InitializePlatformSupportModulesInManaged (18ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (17ms)
-			ProcessInitializeOnLoadAttributes (67ms)
+			BeforeProcessingInitializeOnLoad (16ms)
+			ProcessInitializeOnLoadAttributes (72ms)
 			ProcessInitializeOnLoadMethodAttributes (16ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 723 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (23.7 KB). Loaded Objects now: 1212.
-Memory consumption went from 81.1 MB to 81.1 MB.
-Total: 1.812959 ms (FindLiveObjects: 0.057667 ms CreateObjectMapping: 0.012875 ms MarkObjects: 1.730541 ms  DeleteObjects: 0.011459 ms)
+Unloading 730 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (43.7 KB). Loaded Objects now: 1210.
+Memory consumption went from 74.0 MB to 73.9 MB.
+Total: 1.836167 ms (FindLiveObjects: 0.034375 ms CreateObjectMapping: 0.012042 ms MarkObjects: 1.745542 ms  DeleteObjects: 0.043750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10276.582926 seconds.
+  path: Assets/P-BaseDefenseAssets/Scenes/BattleScene.unity
+  artifactKey: Guid(499182b2722f9c94d8937f078e9811ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/P-BaseDefenseAssets/Scenes/BattleScene.unity using Guid(499182b2722f9c94d8937f078e9811ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985f719f9438bd8391367e794a84bca5') in 0.001666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x173c33000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.185 seconds
+Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.252 seconds
+Domain Reload Profiling: 437ms
+	BeginReloadAssembly (71ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (72ms)
+		LoadAssemblies (93ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (253ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (128ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (19ms)
+			ProcessInitializeOnLoadAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 765 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (23.8 KB). Loaded Objects now: 1255.
+Memory consumption went from 79.3 MB to 79.2 MB.
+Total: 2.340833 ms (FindLiveObjects: 0.047417 ms CreateObjectMapping: 0.014667 ms MarkObjects: 2.261667 ms  DeleteObjects: 0.016708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x173c33000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.172 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.271 seconds
+Domain Reload Profiling: 443ms
+	BeginReloadAssembly (67ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (64ms)
+		LoadAssemblies (88ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (271ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (129ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (18ms)
+			ProcessInitializeOnLoadAttributes (72ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (23.8 KB). Loaded Objects now: 1258.
+Memory consumption went from 85.5 MB to 85.5 MB.
+Total: 1.957792 ms (FindLiveObjects: 0.045333 ms CreateObjectMapping: 0.013917 ms MarkObjects: 1.882041 ms  DeleteObjects: 0.015958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x173cbf000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.159 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.219 seconds
+Domain Reload Profiling: 379ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (49ms)
+		LoadAssemblies (73ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (220ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (121ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (17ms)
+			ProcessInitializeOnLoadAttributes (66ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (23.9 KB). Loaded Objects now: 1261.
+Memory consumption went from 91.6 MB to 91.6 MB.
+Total: 2.127667 ms (FindLiveObjects: 0.044583 ms CreateObjectMapping: 0.014541 ms MarkObjects: 2.052792 ms  DeleteObjects: 0.015416 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
